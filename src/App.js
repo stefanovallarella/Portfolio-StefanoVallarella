@@ -2,13 +2,17 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
-      <header>
-        <p>
-          Saludos desde App.js
-        </p>
-      </header>
-    </div>
+    <React.Fragment>
+      {/* Header */}
+
+      <div>
+
+          <p>
+            Saludos desde App.js funcionando
+          </p>
+
+      </div>
+    </React.Fragment>
   );
 }
 
