@@ -1,4 +1,33 @@
 @charset "UTF-8";
+
+.full-view {
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/architecture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+}
+
+.main-header{
+  position: fixed;
+}
+
+.profile-pic{
+  width: 260px;
+  border-radius: 50%;
+}
+
+.profile-pic-container{
+    height: 100vh;
+}
+
+
+
+
+
+
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
