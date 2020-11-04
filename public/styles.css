@@ -17,6 +17,9 @@
   position: fixed;
 }
 
+.icons-redes-top{
+  width: 30px;
+}
 
 /* Footer */
 
@@ -30,7 +33,7 @@
 }
 
 .icons-container{
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 /* Section 1 */
@@ -42,6 +45,28 @@
 
 .profile-pic-container{
     height: 100vh;
+}
+
+
+/* Section 2 */
+
+.skills-container{
+  height: 100vh;
+}
+
+.skills-content{
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skills-icons{
+  width: 80px;
+}
+
+.skills-card{
+ /*  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 5%; */
+  padding: 1rem
 }
 
 
