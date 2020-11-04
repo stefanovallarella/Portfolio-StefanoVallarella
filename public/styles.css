@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Main Background */
+
 .full-view {
   background-image: url("https://mdbootstrap.com/img/Photos/Others/architecture.jpg");
   background-repeat: no-repeat;
@@ -9,9 +11,29 @@
   
 }
 
+/* Header */
+
 .main-header{
   position: fixed;
 }
+
+
+/* Footer */
+
+.main-footer{
+  bottom: 0;
+  position: fixed;
+}
+
+.icons-redes{
+  width: 80px;
+}
+
+.icons-container{
+  margin-bottom: 4rem;
+}
+
+/* Section 1 */
 
 .profile-pic{
   width: 260px;

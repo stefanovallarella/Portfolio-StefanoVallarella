@@ -1,5 +1,7 @@
 import React from 'react';
 import profile from './img/profile-pic.jpeg'; // Profile pic
+import linkedin from './img/github.svg'; // Profile pic
+import github from './img/linkedin.svg'; // Profile pic
 
 
 function App() {
@@ -31,6 +33,22 @@ function App() {
             </div>
           </header>
 
+          {/* Footer - Iconos enlaces */}
+
+        <footer className="container-fluid main-footer">
+          <div className="container icons-container">
+            <div className="row align-items-end">
+                <div className="col-6 text-right">
+                    <a href="#"> <img className="icons-redes" src={linkedin} alt="Linkedin"/> </a>
+                </div>
+                <div className="col-6  text-left">
+                    <a href="#"> <img className="icons-redes" src={github} alt="Linkedin"/> </a>
+                </div>
+            </div>
+          </div>
+        </footer>
+
+
           {/* Section 1 */}
 
     {/*       <div className="container-fluid">
@@ -45,10 +63,11 @@ function App() {
 
           {/* Section 1 Bis */}
 
-          <div className="container">
+{/*           <div className="container">
             <div className="row profile-pic-container align-items-center justify-content-center">
                 <div className="col-md-6">
                     <div className="about-me">
+                    <h2>Título</h2>
                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam in aliquam maiores. Pariatur quam fugiat consectetur non esse, temporibus quasi. Quaerat repellat qui ab nisi sint quis in debitis incidunt et culpa quae, commodi blanditiis a nemo beatae repudiandae nostrum saepe temporibus fugiat sapiente, distinctio labore odit explicabo officia. Animi.</p>
                     </div>
                 </div>
@@ -56,7 +75,10 @@ function App() {
                   <img className="profile-pic" src={profile} alt="pic profile"/>
                 </div>
             </div>
-          </div> 
+          </div>  */}
+
+
+          {/* Section 2 */}
           
 
 
