@@ -1,7 +1,7 @@
 import React from 'react';
 import profile from './img/profile-pic.jpeg'; // Profile pic
-import linkedin from './img/icons/github.svg'; // Github logo
-import github from './img/icons/linkedin.svg'; // Linkedin logo
+import linkedin from './img/icons/linkedin.svg'; // Github logo
+import github from './img/icons/github.svg'; // Linkedin logo
 import java from './img/skills/java.svg'; // Java logo
 import javascript from './img/skills/javascript.svg'; // Javascript logo
 import nodejs from './img/skills/nodejs.svg'; // Nodejs logo
@@ -43,7 +43,7 @@ function App() {
                               <a class="nav-link" href="#"><img className="icons-redes-top" src={linkedin} alt="Linkedin"/></a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#"><img className="icons-redes-top" src={github} alt="Linkedin"/></a>
+                              <a class="nav-link" href="#"><img className="icons-redes-top" src={github} alt="Github"/></a>
                           </li>
                       </ul>
                   </div>
@@ -67,7 +67,7 @@ function App() {
           </footer>
 
 
-          {/* Section 1 */}
+          {/* Section 1 About me */}
 
      {/*      <div className="container-fluid">
             <div className="row profile-pic-container align-items-center">
@@ -79,7 +79,7 @@ function App() {
             </div>
           </div>   
  */}
-          {/* Section 1 Bis */}
+          {/* Section 1 About me Bis */}
 
 {/*            <div className="container">
             <div className="row profile-pic-container align-items-center justify-content-center">
@@ -96,9 +96,9 @@ function App() {
           </div>  
  */}
 
-          {/* Section 2 */}
+          {/* Section 2 Skills*/}
           
-          <div className="container d-flex flex-column skills-container justify-content-center">
+          {/* <div className="container d-flex flex-column skills-container justify-content-center">
             <div className="row justify-content-around skills-content">
                 <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
@@ -176,7 +176,67 @@ function App() {
                   </div>
                 </div>
             </div>
+          </div> */}
+
+
+          {/* Section 3 Projects */}
+
+          <div className="container-fluid ">
+            <div className="row projects-container align-items-center justify-content-center">
+                <div className="card project grow-card">
+                  <div className="card-body">
+                    <div className="top-card">
+                      <i class="far fa-folder-open"></i>
+                      <a class="nav-link" href="#"><img className="icons-redes-top" src={github} alt="Github"/></a>
+                    </div>
+                    <h5 className="card-title">Proyecto 1</h5>
+                    {/* <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
+                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content text to build on the card title and make up the bulk of the card's content.</p>
+                    <span className="card-link">CSS</span>
+                    <span className="card-link">HTML</span>
+                    <span className="card-link">JS</span>
+                    <span className="card-link">Nodejs</span>
+                  </div>
+                </div>
+
+                <div className="card project grow-card">
+                  <div className="card-body">
+                    <div className="top-card">
+                      <i class="far fa-folder-open"></i>
+                      <a class="nav-link" href="#"><img className="icons-redes-top" src={github} alt="Github"/></a>
+                    </div>
+                    <h5 className="card-title">Proyecto 2</h5>
+                    {/* <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
+                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content text to build on the card title and make up the bulk of the card's content.</p>
+                    <span className="card-link">CSS</span>
+                    <span className="card-link">HTML</span>
+                    <span className="card-link">JS</span>
+                    <span className="card-link">Nodejs</span>
+                  </div>
+                </div>
+
+                <div className="card project grow-card">
+                  <div className="card-body">
+                    <div className="top-card">
+                      <i class="far fa-folder-open"></i>
+                      <a class="nav-link" href="#"><img className="icons-redes-top" src={github} alt="Github"/></a>
+                    </div>
+                    <h5 className="card-title">Proyecto 3</h5>
+                    {/* <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
+                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content text to build on the card title and make up the bulk of the card's content.</p>
+                    <span className="card-link">CSS</span>
+                    <span className="card-link">HTML</span>
+                    <span className="card-link">JS</span>
+                    <span className="card-link">Nodejs</span>
+                  </div>
+                </div>
+            </div>
           </div>
+
+
+
+
+
 
         </div>
     </React.Fragment>

@@ -36,7 +36,7 @@
   margin-bottom: 2rem;
 }
 
-/* Section 1 */
+/* Section 1 About me */
 
 .profile-pic{
   width: 260px;
@@ -48,7 +48,7 @@
 }
 
 
-/* Section 2 */
+/* Section 2 Skills */
 
 .skills-container{
   height: calc(100vh - 5.8rem);
@@ -70,9 +70,51 @@
   padding: 1rem
 }
 
+/* Section 3 Projects */
 
 
+.projects-container{
+  height: calc(100vh - 5.8rem);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12rem;
+}
 
+.project{
+  /* background: rgb(212, 212, 212); */
+  margin: 1rem;
+  width: calc(100%/3 - 5rem);
+  box-shadow: 0px 6px 12px -6px rgba(0,0,0,0.3);
+}
+
+     /* Card projects*/
+     .top-card{
+      display: flex;
+      justify-content: space-between;
+     }
+
+     .top-card i{
+       font-size: 2rem;
+       padding: .5rem 0;
+     }
+
+     /* Grow Card */
+
+     .grow-card {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .grow-card:hover, .grow-card:focus, .grow-card:active {
+      -webkit-transform: scale(1.07);
+      transform: scale(1.07);
+    }
 
 
 
