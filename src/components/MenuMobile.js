@@ -5,7 +5,7 @@ function MenuMobile(){
     return(
         <React.Fragment>
             {/* Menu mobile */}
-            <nav class="nav nav-mobile d-md-none d-lg-none d-xl-none">
+            <nav class="nav nav-mobile d-lg-none d-xl-none">
                 <a href="#" class="nav__link">
                     <i class="fas fa-house-user nav__icon"></i>
                     {/* <span class="nav__text">About</span> */}

@@ -14,16 +14,11 @@ const Desktop = ({ children }) => {
 
 
 function DesktopComponents(){
-
-    if(Desktop != null){
     return(
         <React.Fragment>
 
             <Desktop>
                 <Header />
-            </Desktop>
-
-            <Desktop>
                 <Footer />
             </Desktop>
 
@@ -31,7 +26,6 @@ function DesktopComponents(){
 
 
     )
-   }
 } 
 
 export default DesktopComponents;

@@ -201,8 +201,62 @@
       .skills-icons{
         width: 70px;
       }
+      /* Menu Mobile */
+
+        .nav-mobile{
+          z-index: 999;
+          margin: 0 auto;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+          height: 55px;
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+          background-color: #ffffff;
+          display: flex;
+          overflow-x: auto;
+        }
+
+        .nav__link {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          flex-grow: 1;
+          min-width: 50px;
+          overflow: hidden;
+          white-space: nowrap;
+          font-family: sans-serif;
+          font-size: 1rem;
+          color: #444444;
+          text-decoration: none;
+          -webkit-tap-highlight-color: transparent;
+          transition: background-color 0.1s ease-in-out;
+          border-right: rgb(221, 221, 221) .5px solid;
+        }
+
+        .nav__link:hover {
+          background-color: #2a2a2a;
+        }
+
+        .nav__link--active {
+          /* color: #009578; */
+          color: #444444;
+
+        }
+
+        .nav__icon {
+          font-size: 25px;
+          padding-bottom: .2rem;
+        }
+
+
+        .nav__text {
+          font-size: .8rem;
+        }
+
      }
     
+     
     /*  Large devices (desktops, 992px and up) */
  
      @media (min-width: 992px){
