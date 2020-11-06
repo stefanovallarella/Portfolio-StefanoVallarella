@@ -115,7 +115,7 @@
 /* Section 2 Skills */
 
 .skills-container{
-  
+    margin-top: 7rem;
 }
 
 .skills-content{
@@ -187,6 +187,9 @@
       .skills-icons{
         width: 65px;
       }
+      .skills-container{
+        margin-top: 7rem;
+      }
       
      }
 
@@ -211,17 +214,26 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      
     }
 
     /* Header */
 
     .main-header{
+      top: 0;
       position: fixed;
     }
 
     .icons-redes-top{
       width: 30px;
     }
+
+    /*Menu nav desktop*/
+
+    .nav-desktop{
+      display: block;
+    }
+
 
     /* Footer */
 
@@ -235,8 +247,11 @@
     }
 
     .icons-container{
-      margin-bottom: 2rem;
+      margin-bottom: 0rem;
+      margin-top: 1rem;
     }
+
+   
 
     /* Section 1 About me */
 

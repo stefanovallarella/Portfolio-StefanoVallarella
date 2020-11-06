@@ -2,6 +2,7 @@ import React from 'react';
 import profile from './img/profile-pic.jpeg'; // Profile pic
 import linkedin from './img/icons/linkedin.svg'; // Github logo
 import github from './img/icons/github.svg'; // Linkedin logo
+import cv from './img/icons/cv.svg'; // Cv logo
 import java from './img/skills/java.svg'; // Java logo
 import javascript from './img/skills/javascript.svg'; // Javascript logo
 import nodejs from './img/skills/nodejs.svg'; // Nodejs logo
@@ -23,33 +24,22 @@ function App() {
             {/* Menu mobile */}
             <nav class="nav nav-mobile d-md-none d-lg-none d-xl-none">
               <a href="#" class="nav__link">
-
-
               <i class="fas fa-house-user nav__icon"></i>
-                
-                {/* <i class="material-icons nav__icon">account_circle</i> */}
                 {/* <span class="nav__text">About</span> */}
               </a>
               <a href="#" class="nav__link nav__link--active">
 
                 <i class="fas fa-code nav__icon"></i>
-                {/* <i class="material-icons nav__icon">person</i> */}
                 {/* <span class="nav__text">Skills</span> */}
               </a>
               <a href="#" class="nav__link">
 
                 <i class="far fa-folder-open nav__icon"></i>
-                {/* <i class="material-icons nav__icon">devices</i> */}
                 {/* <span class="nav__text">Projects</span> */}
               </a>
               <a href="#" class="nav__link">
 
               <i class="fas fa-share-alt nav__icon"></i>
-                {/* <i class="fab fa-linkedin nav__icon"></i> */}
-                {/* <i class="fab fa-linkedin-in nav__icon"></i> */}
-                 {/* <i class="fas fa-user-circle nav__icon"></i>  */}
-                {/* <i class="fas fa-info-circle nav__icon"></i> */}
-                {/* <i class="material-icons nav__icon">lock</i> */}
                 {/* <span class="nav__text">Social</span> */}
               </a>
             </nav>
@@ -81,6 +71,9 @@ function App() {
                           <li class="nav-item">
                               <a class="nav-link" href="#"><img className="icons-redes-top" src={github} alt="Github"/></a>
                           </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#"><img className="icons-redes-top" src={cv} alt="CV"/></a>
+                          </li>
                       </ul>
                   </div>
               </nav>
@@ -94,7 +87,8 @@ function App() {
             <div className="row profile-pic-container align-items-center">
                 <div class="col-md-12 text-center">
                   <img className="profile-pic" src={profile} alt="pic profile"/>
-                  <p className="pt-3 text-monospace font-weight-bold">Full Stack Developer</p>
+                  <h5 className="card-title p-1 font-weight-bold">Full Stack Developer </h5>
+                  {/* <p className="pt-3 text-monospace font-weight-bold">Full Stack Developer</p> */}
                   <button type="button" class="btn btn-primary btn-sm">Ver más</button>
                 </div>
             </div>
@@ -103,13 +97,16 @@ function App() {
           {/* Section 1 About me Bis */}
 
           <div className="container">
+            <h1 className="card-title p-3 font-weight-bold text-center">About me</h1>
             <div className="row profile-pic-container-bis align-items-center justify-content-center">
                 <div class="col-md-4 text-center">
                   <img className="profile-pic" src={profile} alt="pic profile"/>
                 </div>
                 <div className="col-md-6">
                     <div className="about-me">
-                    <h2>Título</h2>
+                    <h3 className="card-title pt-3 font-weight-bold">Stefano Vallarella</h3>
+                    <h5 className="card-title font-weight-light">Full Stack Developer </h5>
+                    {/* <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam in aliquam maiores. Pariatur quam fugiat consectetur non esse, temporibus quasi. Quaerat repellat qui ab nisi sint quis in debitis incidunt et culpa quae, commodi blanditiis a nemo beatae repudiandae nostrum saepe temporibus fugiat sapiente, distinctio labore odit explicabo officia. Animi.</p>
                     </div>
                 </div>
@@ -120,6 +117,7 @@ function App() {
           {/* Section 2 Skills*/}
           
           <div className="container d-flex flex-column skills-container justify-content-center">
+          <h1 className="card-title p-3 font-weight-bold text-center">Skills</h1>
             <div className="row justify-content-around skills-content">
                 <div className="col-6 col-sm-4 col-md-4 col-md-4 col-lg-2  d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
@@ -202,6 +200,7 @@ function App() {
 
           {/* Section 3 Projects */}
 
+          <h1 className="card-title p-3 font-weight-bold text-center">Projects</h1>
           <div className="container-fluid d-flex align-items-center projects-container">
             <div className="row align-items-center justify-content-center">
                 <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card">
@@ -258,15 +257,15 @@ function App() {
 
          <footer className="container-fluid main-footer">
             <div className="container icons-container">
-              <div className="row align-items-end">
-                  <div className="col-4 text-right">
+              <div className="row align-items-center justify-content-center">
+                  <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-center">
                       <a href="#"> <img className="icons-redes" src={linkedin} alt="Linkedin"/> </a>
                   </div>
-                  <div className="col-4  text-left">
-                      <a href="#"> <img className="icons-redes" src={github} alt="Linkedin"/> </a>
+                  <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-center">
+                      <a href="#"> <img className="icons-redes" src={github} alt="Github"/> </a>
                   </div>
-                  <div className="col-4  text-left">
-                      <a href="#"> <img className="icons-redes" src={github} alt="Linkedin"/> </a>
+                  <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-center">
+                      <a href="#"> <img className="icons-redes" src={cv} alt="Cv"/> </a>
                   </div>
               </div>
             </div>
