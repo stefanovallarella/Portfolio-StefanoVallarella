@@ -20,12 +20,48 @@ function App() {
   return (
     <React.Fragment>
       
+            {/* Menu mobile */}
+            <nav class="nav nav-mobile d-md-none d-lg-none d-xl-none">
+              <a href="#" class="nav__link">
+
+
+              <i class="fas fa-house-user nav__icon"></i>
+                
+                {/* <i class="material-icons nav__icon">account_circle</i> */}
+                {/* <span class="nav__text">About</span> */}
+              </a>
+              <a href="#" class="nav__link nav__link--active">
+
+                <i class="fas fa-code nav__icon"></i>
+                {/* <i class="material-icons nav__icon">person</i> */}
+                {/* <span class="nav__text">Skills</span> */}
+              </a>
+              <a href="#" class="nav__link">
+
+                <i class="far fa-folder-open nav__icon"></i>
+                {/* <i class="material-icons nav__icon">devices</i> */}
+                {/* <span class="nav__text">Projects</span> */}
+              </a>
+              <a href="#" class="nav__link">
+
+              <i class="fas fa-share-alt nav__icon"></i>
+                {/* <i class="fab fa-linkedin nav__icon"></i> */}
+                {/* <i class="fab fa-linkedin-in nav__icon"></i> */}
+                 {/* <i class="fas fa-user-circle nav__icon"></i>  */}
+                {/* <i class="fas fa-info-circle nav__icon"></i> */}
+                {/* <i class="material-icons nav__icon">lock</i> */}
+                {/* <span class="nav__text">Social</span> */}
+              </a>
+            </nav>
+
+
+
         {/* Full Background Intro */}
         <div className="full-view container-fluid">
           {/* Header */}
           <header className="container-fluid main-header">
             {/* Nav bar */}
-            <div class="container-fluid">
+            <div class="container-fluid nav-desktop">
               <nav class="navbar navbar-expand-md p-4 mr-4 ml-4">
                   <a class="navbar-brand" href="#">Stefano Vallarella</a>
                   <div class="collapse navbar-collapse ">
@@ -51,25 +87,10 @@ function App() {
             </div>
           </header>
 
-          {/* Footer - Iconos enlaces */}
-
-          <footer className="container-fluid main-footer">
-            <div className="container icons-container">
-              <div className="row align-items-end">
-                  <div className="col-6 text-right">
-                      <a href="#"> <img className="icons-redes" src={linkedin} alt="Linkedin"/> </a>
-                  </div>
-                  <div className="col-6  text-left">
-                      <a href="#"> <img className="icons-redes" src={github} alt="Linkedin"/> </a>
-                  </div>
-              </div>
-            </div>
-          </footer>
-
 
           {/* Section 1 About me */}
 
-     {/*      <div className="container-fluid">
+           <div className="container-fluid">
             <div className="row profile-pic-container align-items-center">
                 <div class="col-md-12 text-center">
                   <img className="profile-pic" src={profile} alt="pic profile"/>
@@ -78,11 +99,11 @@ function App() {
                 </div>
             </div>
           </div>   
- */}
+ 
           {/* Section 1 About me Bis */}
 
-{/*            <div className="container">
-            <div className="row profile-pic-container align-items-center justify-content-center">
+          <div className="container">
+            <div className="row profile-pic-container-bis align-items-center justify-content-center">
                 <div class="col-md-4 text-center">
                   <img className="profile-pic" src={profile} alt="pic profile"/>
                 </div>
@@ -94,43 +115,43 @@ function App() {
                 </div>
             </div>
           </div>  
- */}
+ 
 
           {/* Section 2 Skills*/}
           
-          {/* <div className="container d-flex flex-column skills-container justify-content-center">
+          <div className="container d-flex flex-column skills-container justify-content-center">
             <div className="row justify-content-around skills-content">
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-md-4 col-lg-2  d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={java} alt="Logo Java"/>
                     <button className="btn btn-light">Java</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={android} alt="Logo Android Studio"/>
                     <button className="btn btn-light">Android Studio</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={javascript} alt="Logo Javascript"/>
                     <button className="btn btn-light">Javascript</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={nodejs} alt="Logo Nodejs"/>
                     <button className="btn btn-light">Nodejs</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={express} alt="Logo Express"/>
                     <button className="btn btn-light">Express</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={sequelize} alt="Logo Sequelize"/>
                     <button className="btn btn-light">Sequelize</button>
@@ -139,51 +160,51 @@ function App() {
             </div>
 
             <div className="row justify-content-around skills-content">
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={mysql} alt="Logo Mysql"/>
                     <button className="btn btn-light">Mysql</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={html} alt="Logo Html5"/>
                     <button className="btn btn-light">HTML5</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={css} alt="Logo CSS3"/>
                     <button className="btn btn-light">CSS3</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={reactjs} alt="Logo Reactjs"/>
                     <button className="btn btn-light">Reactjs</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={bootstrap} alt="Logo Bootstrap"/>
                     <button className="btn btn-light">Bootstrap</button>
                   </div>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center justify-content-end skills-card">
+                <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
                   <div className="row d-flex flex-column align-items-center">
                     <img className="skills-icons" src={git} alt="Logo Git"/>
                     <button className="btn btn-light">Git</button>
                   </div>
                 </div>
             </div>
-          </div> */}
+          </div>
 
 
           {/* Section 3 Projects */}
 
-          <div className="container-fluid ">
-            <div className="row projects-container align-items-center justify-content-center">
-                <div className="card project grow-card">
+          <div className="container-fluid d-flex align-items-center projects-container">
+            <div className="row align-items-center justify-content-center">
+                <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card">
                   <div className="card-body">
                     <div className="top-card">
                       <i class="far fa-folder-open"></i>
@@ -199,7 +220,7 @@ function App() {
                   </div>
                 </div>
 
-                <div className="card project grow-card">
+                <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card">
                   <div className="card-body">
                     <div className="top-card">
                       <i class="far fa-folder-open"></i>
@@ -215,7 +236,7 @@ function App() {
                   </div>
                 </div>
 
-                <div className="card project grow-card">
+                <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card">
                   <div className="card-body">
                     <div className="top-card">
                       <i class="far fa-folder-open"></i>
@@ -233,6 +254,23 @@ function App() {
             </div>
           </div>
 
+               {/* Footer - Iconos enlaces */}
+
+         <footer className="container-fluid main-footer">
+            <div className="container icons-container">
+              <div className="row align-items-end">
+                  <div className="col-4 text-right">
+                      <a href="#"> <img className="icons-redes" src={linkedin} alt="Linkedin"/> </a>
+                  </div>
+                  <div className="col-4  text-left">
+                      <a href="#"> <img className="icons-redes" src={github} alt="Linkedin"/> </a>
+                  </div>
+                  <div className="col-4  text-left">
+                      <a href="#"> <img className="icons-redes" src={github} alt="Linkedin"/> </a>
+                  </div>
+              </div>
+            </div>
+          </footer> 
 
 
 

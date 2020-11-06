@@ -1,5 +1,60 @@
 @charset "UTF-8";
 
+
+/* Menu Mobile */
+
+.nav-mobile{
+  z-index: 999;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: flex;
+  overflow-x: auto;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #444444;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+  border-right: rgb(221, 221, 221) .5px solid;
+}
+
+.nav__link:hover {
+  background-color: #2a2a2a;
+}
+
+.nav__link--active {
+  /* color: #009578; */
+  color: #444444;
+
+}
+
+.nav__icon {
+  font-size: 25px;
+  padding-bottom: .2rem;
+}
+
+
+.nav__text {
+  font-size: .8rem;
+}
+
+
 /* Main Background */
 
 .full-view {
@@ -8,7 +63,6 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  
 }
 
 /* Header */
@@ -21,25 +75,31 @@
   width: 30px;
 }
 
+.nav-desktop{
+  display: none;
+}
+
 /* Footer */
 
 .main-footer{
-  bottom: 0;
-  position: fixed;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .icons-redes{
-  width: 80px;
+  width: 70px;
 }
 
 .icons-container{
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 /* Section 1 About me */
 
 .profile-pic{
-  width: 260px;
+  width: 160px;
   border-radius: 50%;
 }
 
@@ -47,34 +107,36 @@
     height: 100vh;
 }
 
+.profile-pic-container-bis{
+  height: 75vh;
+}
+
 
 /* Section 2 Skills */
 
 .skills-container{
-  height: calc(100vh - 5.8rem);
+  
 }
 
 .skills-content{
-  padding: 2rem;
-  margin-bottom: 1rem;
+  padding: .5rem;
 }
 
 .skills-icons{
-  width: 80px;
+  width: 60px;
   margin-bottom: .5rem;
 }
 
 .skills-card{
  /*  background-color: rgba(0, 0, 0, 0.75);
   border-radius: 5%; */
-  padding: 1rem
+  padding-bottom: .5rem;
 }
 
 /* Section 3 Projects */
 
 
 .projects-container{
-  height: calc(100vh - 5.8rem);
   width: 100%;
   margin: 0 auto;
   padding: 0 12rem;
@@ -83,7 +145,7 @@
 .project{
   /* background: rgb(212, 212, 212); */
   margin: 1rem;
-  width: calc(100%/3 - 5rem);
+  /*width: calc(100%/3 - 10rem); */
   /* box-shadow: 0px 6px 12px -6px rgba(0,0,0,0.3); */
 }
 
@@ -115,6 +177,141 @@
       -webkit-transform: scale(1.07);
       transform: scale(1.07);
     }
+
+
+
+    @media (min-width: 576px) { 
+      .profile-pic{
+        width: 180px;
+      }
+      .skills-icons{
+        width: 65px;
+      }
+      
+     }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) { 
+      .profile-pic{
+        width: 220px;
+      }
+      .skills-icons{
+        width: 70px;
+      }
+     }
+    
+    /*  Large devices (desktops, 992px and up) */
+ 
+     @media (min-width: 992px){
+
+    /* Main Background */
+
+    .full-view {
+      background-image: url("https://mdbootstrap.com/img/Photos/Others/architecture.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Header */
+
+    .main-header{
+      position: fixed;
+    }
+
+    .icons-redes-top{
+      width: 30px;
+    }
+
+    /* Footer */
+
+    .main-footer{
+      bottom: 0;
+      position: fixed;
+    }
+
+    .icons-redes{
+      width: 80px;
+    }
+
+    .icons-container{
+      margin-bottom: 2rem;
+    }
+
+    /* Section 1 About me */
+
+    .profile-pic{
+      width: 260px;
+      border-radius: 50%;
+    }
+
+    .profile-pic-container{
+        height: 100vh;
+    }
+
+    .profile-pic-container-bis{
+      height: 100vh;
+    }
+
+    /* Section 2 Skills */
+
+    .skills-container{
+      height: calc(100vh - 5.8rem);
+    }
+
+    .skills-content{
+      padding: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .skills-icons{
+      width: 75px;
+      margin-bottom: .5rem;
+    }
+
+    .skills-card{
+    /*  background-color: rgba(0, 0, 0, 0.75);
+      border-radius: 5%; */
+      padding: 1rem
+    }
+
+    /* Section 3 Projects */
+
+    .projects-container{
+      height: calc(100vh - 5.8rem);
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 12rem;
+    }
+
+    .project{
+      /* background: rgb(212, 212, 212); */
+      margin: 1rem;
+      /*width: calc(100%/3 - 10rem);*/
+      /* box-shadow: 0px 6px 12px -6px rgba(0,0,0,0.3); */
+    }
+
+        /* Card projects*/
+        .top-card{
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .top-card i{
+          font-size: 2rem;
+          padding: .5rem 0;
+        }
+        }    
+
+     /* Extra large devices (large desktops, 1200px and up) */
+     @media (min-width: 1200px) {
+      .profile-pic{
+        width: 280px;
+      }
+      .skills-icons{
+        width: 80px;
+      }
+      }
 
 
 
