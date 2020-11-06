@@ -20,15 +20,6 @@ function App() {
           
             <Header />
 
-            <AboutMe />
- 
-            <AboutMeBis />
- 
-            <Skills />
-          
-            <Projects />
-
-         
             <Footer />
     
         </div>

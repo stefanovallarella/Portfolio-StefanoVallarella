@@ -272,6 +272,7 @@
 
     .skills-container{
       height: calc(100vh - 5.8rem);
+      margin-top: 0;
     }
 
     .skills-content{

@@ -2,6 +2,7 @@ import React from 'react';
 
 import profile from '../img/profile-pic.jpeg'; // Profile pic
 
+import AboutMeBis from './AboutMeBis';
 
 function AboutMe(){
     return(
@@ -17,6 +18,9 @@ function AboutMe(){
                 </div>
             </div>
           </div>   
+
+         {/*  <AboutMeBis />
+           */}
         </React.Fragment>  
     );
 }
