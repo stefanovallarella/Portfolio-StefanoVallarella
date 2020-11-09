@@ -28,7 +28,7 @@ function MobileAndTabletComponents(){
 
             <MobileOrTablet>
                 <MenuMobile/>
-                <AboutMe/>
+                {/* <AboutMe/> */}
                 <AboutMeBis/>
                 <Skills/>
                 <Projects/>

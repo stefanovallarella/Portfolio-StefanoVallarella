@@ -108,14 +108,14 @@
 }
 
 .profile-pic-container-bis{
-  height: 75vh;
+  height: 100vh;
 }
 
 
 /* Section 2 Skills */
 
 .skills-container{
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
 
 .skills-content{
@@ -190,7 +190,9 @@
       .skills-container{
         margin-top: 7rem;
       }
-      
+      .profile-pic-container-bis{
+        height: 90vh;
+      }
      }
 
     /* Medium devices (tablets, 768px and up) */
@@ -201,6 +203,7 @@
       .skills-icons{
         width: 70px;
       }
+      
       /* Menu Mobile */
 
         .nav-mobile{
@@ -319,8 +322,10 @@
     }
 
     .profile-pic-container-bis{
-      height: 100vh;
+      height: calc(100vh - 5.8rem);
     }
+
+    
 
     /* Section 2 Skills */
 
@@ -330,8 +335,8 @@
     }
 
     .skills-content{
-      padding: 2rem;
-      margin-bottom: 1rem;
+      padding: .5rem;
+      margin-bottom: .5rem;
     }
 
     .skills-icons{
@@ -371,6 +376,16 @@
           font-size: 2rem;
           padding: .5rem 0;
         }
+
+        .skills-title{
+          padding-bottom: 1.5rem;
+        }
+
+        .section-title{
+          padding: 1rem 1rem 2rem;
+        }
+
+
         }    
 
      /* Extra large devices (large desktops, 1200px and up) */

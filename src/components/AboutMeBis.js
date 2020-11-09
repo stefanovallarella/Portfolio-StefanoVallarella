@@ -7,9 +7,9 @@ function AboutMeBis(){
     return(
         <React.Fragment>
           {/* Section 1 About me Bis */}
-          <div className="container">
-            <h1 className="card-title p-3 font-weight-bold text-center">About me</h1>
-            <div className="row profile-pic-container-bis align-items-center justify-content-center">
+          <div className="container d-flex flex-column justify-content-center align-items-center profile-pic-container-bis">
+            <h1 className="font-weight-bold text-center section-title">About me</h1>
+            <div className="row align-items-center justify-content-center mb-3">
                 <div class="col-md-4 text-center">
                   <img className="profile-pic" src={profile} alt="pic profile"/>
                 </div>
