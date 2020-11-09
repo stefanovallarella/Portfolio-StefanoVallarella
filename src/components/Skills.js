@@ -21,7 +21,7 @@ function Skills(){
           {/* Section 2 Skills*/}
           
           <div className="container d-flex flex-column skills-container justify-content-center">
-            <h1 className="font-weight-bold text-center">Skills</h1>
+            <h1 className="font-weight-bold text-center animate__animated  animate__zoomIn animate__delay-1s">Skills</h1>
               <div className="row justify-content-around skills-content">
                   <div className="col-6 col-sm-4 col-md-4 col-md-4 col-lg-2  d-flex flex-column align-items-center justify-content-end skills-card">
                     <div className="row d-flex flex-column align-items-center">

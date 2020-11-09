@@ -9,6 +9,7 @@ function AboutMe(){
         <React.Fragment>
         {/* Section 1 About me */}
           {/* Full Background Intro */}
+          
         <div className="full-view container-fluid">
 
           <AboutMeBis />

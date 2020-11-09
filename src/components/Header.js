@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink, Route } from 'react-router-dom';
+import { AnimatedSwitch } from 'react-router-transition';
 
 // Componentes
 import MenuMobile from './MenuMobile';
@@ -49,10 +50,22 @@ function Header(){
             </div>
           </header>
 
-          <Route exact path="/" component={ AboutMe } />   
+
+            <AnimatedSwitch
+                atEnter={{ opacity: 0 }}
+                atLeave={{ opacity: 0 }}
+                atActive={{ opacity: 1 }}
+                className="switch-wrapper"
+                >
+                <Route exact path="/" component={ AboutMe } />   
+                <Route path="/skills" component={ Skills } />   
+                <Route path="/projects" component={ Projects } />   
+            </AnimatedSwitch>
+
+         {/*  <Route exact path="/" component={ AboutMe } />   
           <Route path="/skills" component={ Skills } />   
           <Route path="/projects" component={ Projects } />    
-
+ */}
         </React.Fragment>  
     );
 }
