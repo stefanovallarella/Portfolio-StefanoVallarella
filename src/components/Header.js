@@ -52,20 +52,16 @@ function Header(){
 
 
             <AnimatedSwitch
-                atEnter={{ opacity: 0 }}
-                atLeave={{ opacity: 0 }}
-                atActive={{ opacity: 1 }}
-                className="switch-wrapper"
-                >
+            atEnter={{ opacity: 0 }}
+            atLeave={{ opacity: 0 }}
+            atActive={{ opacity: 1 }}
+            className="switch-wrapper"
+            >
                 <Route exact path="/" component={ AboutMe } />   
                 <Route path="/skills" component={ Skills } />   
-                <Route path="/projects" component={ Projects } />   
+                <Route path="/projects" component={ Projects } />
             </AnimatedSwitch>
 
-         {/*  <Route exact path="/" component={ AboutMe } />   
-          <Route path="/skills" component={ Skills } />   
-          <Route path="/projects" component={ Projects } />    
- */}
         </React.Fragment>  
     );
 }
