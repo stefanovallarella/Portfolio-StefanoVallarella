@@ -23,7 +23,7 @@ function Header(){
             {/* Nav bar */}
             <div class="container-fluid nav-desktop">
               <nav class="navbar navbar-expand-md p-4 mr-4 ml-4">
-                  <Link class="navbar-brand" exact to="/">Stefano Vallarella</Link>
+                  <NavLink className="navbar-brand" exact to="/">Stefano Vallarella</NavLink>
                   <div class="collapse navbar-collapse ">
                       <ul class="navbar-nav ml-auto">
                           <li class="nav-item">

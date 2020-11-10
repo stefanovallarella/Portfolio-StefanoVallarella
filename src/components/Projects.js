@@ -11,9 +11,9 @@ function Projects(){
           {/* Section 3 Projects */}
 
           <div className="container-fluid d-flex flex-column align-items-center justify-content-center projects-container">
-            <h1 className="p-3 font-weight-bold text-center section-title animate__animated  animate__zoomIn">Projects</h1>
+            <h1 className="p-3 font-weight-bold text-center section-title animate__animated animate__fadeInDown">Projects</h1>
             <div className="row align-items-center justify-content-center">
-                <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card">
+                <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card animate__animated animate__fadeInLeft">
                   <div className="card-body">
                     <div className="top-card">
                       <i class="far fa-folder-open"></i>
@@ -29,7 +29,7 @@ function Projects(){
                   </div>
                 </div>
 
-                <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card">
+                <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card animate__animated animate__fadeInUp">
                   <div className="card-body">
                     <div className="top-card">
                       <i class="far fa-folder-open"></i>
@@ -45,7 +45,7 @@ function Projects(){
                   </div>
                 </div>
 
-                <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card">
+                <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card animate__animated animate__fadeInBottomRight">
                   <div className="card-body">
                     <div className="top-card">
                       <i class="far fa-folder-open"></i>
