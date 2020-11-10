@@ -1,13 +1,18 @@
 @charset "UTF-8";
 
-.switch-wrapper {
-  position: relative;
-}
 
+html,body{overflow-x:hidden !important}
+
+
+/* .switch-wrapper {
+  position: relative; 
+}
+ */
 .switch-wrapper > div {
   position: absolute;
   left: 0;
   right: 0;
+  width: 100%;
 }
 
 
