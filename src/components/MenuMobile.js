@@ -10,7 +10,7 @@ function MenuMobile(){
                     <i class="fas fa-house-user nav__icon"></i>
                     {/* <span class="nav__text">About</span> */}
                 </a>
-                <a id="nav-mobile-skills" href="#skills" class="nav__link nav__link--active">
+                <a id="nav-mobile-skills" href="#skills" class="nav__link">
                     <i class="fas fa-code nav__icon"></i>
                     {/* <span class="nav__text">Skills</span> */}
                 </a>

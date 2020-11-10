@@ -3,6 +3,7 @@
 
 html,body{overflow-x:hidden !important}
 
+
 html{
   scroll-behavior: smooth;
 }
@@ -52,17 +53,22 @@ html{
   border-right: rgb(221, 221, 221) .5px solid;
 }
 
-.nav__link:hover,
-.nav__link:active {
+.item-mobile-active{
   background-color: #2a2a2a;
   color: whitesmoke;
 }
 
-.nav__link--active {
-  /* color: #009578; */
-  color: #444444;
 
+.nav__link:active {
+  background-color: #2a2a2a;
+  color: whitesmoke;
+}  
+
+
+.nav__link--active {
+  color: #444444;
 }
+ 
 
 .nav__icon {
   font-size: 25px;
@@ -267,11 +273,11 @@ html{
           background-color: #2a2a2a;
         }
 
-        .nav__link--active {
-          /* color: #009578; */
+       /*  .nav__link--active {
+          
           color: #444444;
 
-        }
+        } */
 
         .nav__icon {
           font-size: 25px;
