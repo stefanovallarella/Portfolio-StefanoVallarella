@@ -3,11 +3,14 @@
 
 html,body{overflow-x:hidden !important}
 
+html{
+  scroll-behavior: smooth;
+}
 
 /* .switch-wrapper {
   position: relative; 
-}
- */
+} */
+
 .switch-wrapper > div {
   position: absolute;
   left: 0;
@@ -49,8 +52,10 @@ html,body{overflow-x:hidden !important}
   border-right: rgb(221, 221, 221) .5px solid;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:active {
   background-color: #2a2a2a;
+  color: whitesmoke;
 }
 
 .nav__link--active {
@@ -69,6 +74,11 @@ html,body{overflow-x:hidden !important}
   font-size: .8rem;
 }
 
+
+.visited-scroll{
+  background-color: #2a2a2a;
+  color: whitesmoke;
+}
 
 /* Main Background */
 

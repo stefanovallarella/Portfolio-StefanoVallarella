@@ -10,7 +10,7 @@ function Footer(){
 
         {/* Footer - Iconos enlaces */}
 
-         <footer className="container-fluid main-footer">
+         <footer id="redes" className="container-fluid main-footer">
             <div className="container icons-container">
               <div className="row align-items-center justify-content-center">
                   <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-center">
