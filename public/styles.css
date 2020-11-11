@@ -3,7 +3,6 @@
 
 html,body{overflow-x:hidden !important}
 
-
 html{
   scroll-behavior: smooth;
 }
@@ -17,6 +16,25 @@ html{
   left: 0;
   right: 0;
   width: 100%;
+}
+
+
+     /* Particles */
+
+     #tsparticles{
+      height: 45vh;
+    }
+
+    .gradient-background{
+      background: rgb(88, 61, 73);
+      background: radial-gradient(circle, rgb(92, 63, 76) 0%, rgb(31, 36, 51) 100%); 
+    }
+
+
+/* Color White --> Text Desktop*/
+
+.white-color{
+  color: whitesmoke;
 }
 
 
@@ -320,6 +338,11 @@ html{
         height: 100vh;
       }
 
+      .gradient-background{
+        background: rgb(88, 61, 73);
+        background: radial-gradient(circle, rgb(92, 63, 76) 0%, rgb(31, 36, 51) 100%); 
+      }
+
 
     /* Main Background */
 
@@ -348,6 +371,11 @@ html{
     .nav-desktop{
       display: inline-block;
     }
+
+    .nav-item-desktop{
+      color: whitesmoke !important;
+    }
+
 
 
     /* Footer */

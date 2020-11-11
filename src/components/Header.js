@@ -23,17 +23,17 @@ function Header(){
             {/* Nav bar */}
             <div class="container-fluid nav-desktop">
               <nav class="navbar navbar-expand-md p-4 mr-4 ml-4">
-                  <NavLink className="navbar-brand" exact to="/">Stefano Vallarella</NavLink>
+                  <NavLink className="navbar-brand nav-item-desktop" exact to="/">Stefano Vallarella</NavLink>
                   <div class="collapse navbar-collapse ">
                       <ul class="navbar-nav ml-auto">
                           <li class="nav-item">
-                              <NavLink className="nav-link" exact to="/">About me</NavLink>
+                              <NavLink className="nav-link nav-item-desktop" exact to="/">About me</NavLink>
                           </li>
                           <li class="nav-item">
-                              <NavLink className="nav-link" to="/skills">Skills</NavLink>
+                              <NavLink className="nav-link nav-item-desktop" to="/skills">Skills</NavLink>
                           </li>
                           <li class="nav-item">
-                              <NavLink className="nav-link" to="/projects">Projects</NavLink>
+                              <NavLink className="nav-link nav-item-desktop" to="/projects">Projects</NavLink>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#"><img className="icons-redes-top" src={linkedin} alt="Linkedin"/></a>

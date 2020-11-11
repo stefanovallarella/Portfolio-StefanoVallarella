@@ -19,6 +19,7 @@ function DesktopComponents(){
 
             <Desktop>
                 <div
+                className="gradient-background"
                 style={{
                 position: "absolute",
                 top: 0,

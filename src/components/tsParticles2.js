@@ -44,13 +44,13 @@ class Particulas extends Component {
           },
           particles: {
             color: {
-              value: "#FFFFFF",
+              value: "#212121",
             },
             links: {
-              color: "#FFFFFF",
+              color: "#212121",
               distance: 150,
               enable: true,
-              opacity: 0.1,
+              opacity: 0.4,
               width: 1,
             },
             collisions: {
@@ -72,14 +72,14 @@ class Particulas extends Component {
               value: 80,
             },
             opacity: {
-              value: 0.2,
+              value: 0.4,
             },
             shape: {
               type: "circle",
             },
             size: {
               random: true,
-              value: 4,
+              value: 2,
             },
           },
           detectRetina: true,
