@@ -1,7 +1,5 @@
 import React from 'react';
-
 import profile from '../img/profile-pic.jpeg'; // Profile pic
-
 import AboutMeBis from './AboutMeBis';
 
 function AboutMe(){
@@ -10,8 +8,8 @@ function AboutMe(){
         {/* Section 1 About me */}
           {/* Full Background Intro */}
           
-        <div className="full-view container-fluid">
-
+        {/* <div className="full-view container-fluid"> */}
+          
           <AboutMeBis />
 
            {/*  <div className="container-fluid">
@@ -24,7 +22,8 @@ function AboutMe(){
                   </div>
               </div>
             </div> */}
-          </div>
+
+        {/* </div> */}
 
       
         </React.Fragment>  
