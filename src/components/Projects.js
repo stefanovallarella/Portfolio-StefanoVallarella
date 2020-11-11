@@ -1,6 +1,6 @@
 import React from 'react';
 
-import github from '../img/icons/github.svg'; // Github logo
+import github from '../img/icons/githubblack.svg'; // Github logo
 
 
 

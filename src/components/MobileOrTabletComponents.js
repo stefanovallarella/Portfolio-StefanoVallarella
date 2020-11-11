@@ -1,7 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 
-
 // Components
 
 import Footer from './Footer';
@@ -60,7 +59,9 @@ function MobileAndTabletComponents(){
                     <ParticulasHotFix />
                 </div>
 
-                <Footer/>
+                <Footer
+                    onMobile = {true}
+                />
        
             </MobileOrTablet>
 
