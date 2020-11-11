@@ -59,16 +59,20 @@ html{
 }
 
 
-.nav__link:active {
+.nav-mobile .nav__link:hover{
+  color: whitesmoke;
+}
+
+/*  .nav__link:active {
   background-color: #2a2a2a;
   color: whitesmoke;
-}  
+}    */
 
 
-.nav__link--active {
+/* .nav__link--active {
   color: #444444;
 }
- 
+  */
 
 .nav__icon {
   font-size: 25px;
@@ -269,9 +273,23 @@ html{
           border-right: rgb(221, 221, 221) .5px solid;
         }
 
-        .nav__link:hover {
+        .item-mobile-active{
           background-color: #2a2a2a;
+          color: whitesmoke;
         }
+        
+        .nav-mobile .nav__link:hover{
+          color: whitesmoke;
+        }
+
+        .visited-scroll{
+          background-color: #2a2a2a;
+          color: whitesmoke;
+        }
+        
+        /* .nav__link:hover {
+          background-color: #2a2a2a;
+        } */
 
        /*  .nav__link--active {
           
