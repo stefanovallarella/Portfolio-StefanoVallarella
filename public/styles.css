@@ -23,13 +23,20 @@
   src: url("./fonts/Nunito-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Rubik-light-italic";
+  src: url("./fonts/Rubik-LightItalic.ttf");
+}
 
+/* Generales */
 
 html,body{overflow-x:hidden !important}
 
 html{
   scroll-behavior: smooth;
 }
+
+/* React transition group*/
 
 .switch-wrapper > div {
   position: absolute;
@@ -54,6 +61,8 @@ html{
       height: 100vh;
      }
 
+
+     /* Fondo Gradient particles*/
     .gradient-background{
       background-color: #2d3436;
       background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
@@ -64,6 +73,18 @@ html{
 
 /* Color - texts*/
 
+/* Nombre - About me*/
+.name-about{margin-top: 1rem;}
+
+/* Fullstack - About me*/
+.fullstack{
+  font-size: 1.5rem;
+  font-family: Rubik-light-italic;
+  color: whitesmoke;
+  margin-bottom: 0;
+}
+
+/*Titles responsive*/
 .white-color{
   color: whitesmoke;
   font-family: Rubik-light;
@@ -82,12 +103,15 @@ html{
   color: #2a2a2a;
 }
 
+/* Menu links desktop*/
+
 .desktop-menu-style{
   color: whitesmoke;
   font-size: 1.2rem;
   font-family: Nunito;
 }
 
+/* Nombre menu desktop*/
 .desktop-brand-style{
   color: whitesmoke;
   font-size: 1.5rem;
@@ -310,6 +334,12 @@ html{
         color: #2a2a2a;
       }
 
+      .fullstack{
+        font-size: 1.5rem;
+        font-family: Rubik-light-italic;
+        color: whitesmoke;
+      }
+
       .profile-pic{
         width: 180px;
       }
@@ -366,6 +396,12 @@ html{
         margin-bottom: 2rem;
       }
 
+
+      .fullstack{
+        font-size: 1.5rem;
+        font-family: Rubik-light-italic;
+        color: whitesmoke;
+      }
 
       /* Section About Me*/
       .profile-pic{
@@ -456,6 +492,33 @@ html{
     /*  Large devices (desktops, 992px and up) */
  
      @media (min-width: 992px){
+      .about-img-container{
+        margin-bottom: 6rem;
+      }
+      .about-title{
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+      }
+
+
+      .projects-all-container{
+        margin-bottom: 4rem;
+      }
+      .projects-title{
+        margin-bottom: 4rem;
+      }
+
+      .name-about{
+        font-size: 2rem;
+      }
+
+      .fullstack{
+        font-size: 1.5rem;
+        font-family: Rubik-light-italic;
+        color: whitesmoke;
+      }
+
+
 
 
       .rights-reserved{
@@ -465,6 +528,7 @@ html{
 
       .black-color-title{
         color: whitesmoke;
+        font-size: 2.5rem;
       }
 
      /* Particles */
