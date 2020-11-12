@@ -47,7 +47,9 @@ function MobileAndTabletComponents(){
                 height: "100%"
                 }}
                 >
-                <AboutMeBis/> 
+                <AboutMeBis
+                    onMobile = {true}
+                /> 
                 </div>
                 </div>
 
@@ -57,7 +59,7 @@ function MobileAndTabletComponents(){
                 />
                 <Projects/>
 
-                <div style={{ width: "100vw", height: "45vh"}}>
+                <div className="particle-hot-fix">
                     <ParticulasHotFix />
                 </div>
 

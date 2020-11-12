@@ -46,7 +46,7 @@ render(){
       {/* Section 2 Skills*/}
       
       <div id="skills" className="container d-flex flex-column skills-container justify-content-center">
-        <h1 className="font-weight-bold text-center animate__animated animate__fadeInDown white-color-title">Skills</h1>
+        <h1 className="text-center animate__animated animate__fadeInDown white-color-title black-color-title">Skills</h1>
           <div className="row justify-content-around skills-content animate__animated animate__zoomIn">
               <div className="col-6 col-sm-4 col-md-4 col-md-4 col-lg-2  d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content"> 

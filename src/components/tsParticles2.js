@@ -5,7 +5,7 @@ class Particulas extends Component {
   render() {
     return (
       <Particles
-        id="tsparticles"
+        id="tsparticlesMobile"
         options={{
           /* background: {
             color: {
@@ -61,7 +61,7 @@ class Particulas extends Component {
               enable: true,
               outMode: "bounce",
               random: false,
-              speed: 1,
+              speed: 2,
               straight: false,
             },
             number: {
@@ -69,10 +69,10 @@ class Particulas extends Component {
                 enable: true,
                 value_area: 800,
               },
-              value: 80,
+              value: 60,
             },
             opacity: {
-              value: 0.4,
+              value: 0.2,
             },
             shape: {
               type: "circle",

@@ -1,15 +1,35 @@
 @charset "UTF-8";
 
 
+
+/* Fuentes */
+@font-face {
+  font-family: "Rubik-regular";
+  src: url("./fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rubik-light";
+  src: url("./fonts/Rubik-Light.ttf");
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url("./fonts/Asap-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-Regular.ttf");
+}
+
+
+
 html,body{overflow-x:hidden !important}
 
 html{
   scroll-behavior: smooth;
 }
-
-/* .switch-wrapper {
-  position: relative; 
-} */
 
 .switch-wrapper > div {
   position: absolute;
@@ -18,16 +38,27 @@ html{
   width: 100%;
 }
 
-
      /* Particles */
 
+     #tsparticlesMobile{
+       height: 50vh;
+     }
+
+     .particles-hot-fix{
+        width: 100vw;
+        height: 50vh;
+     }
+
+
      #tsparticles{
-      height: 45vh;
-    }
+      height: 100vh;
+     }
 
     .gradient-background{
-      background: rgb(88, 61, 73);
-      background: radial-gradient(circle, rgb(92, 63, 76) 0%, rgb(31, 36, 51) 100%); 
+      background-color: #2d3436;
+      background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+/*       background: rgb(88, 61, 73);
+      background: radial-gradient(circle, rgb(92, 63, 76) 0%, rgb(31, 36, 51) 100%);  */
     }
 
 
@@ -35,11 +66,36 @@ html{
 
 .white-color{
   color: whitesmoke;
+  font-family: Rubik-light;
 }
 
 .white-color-title{
   color: whitesmoke;
   text-shadow: 1px 2px 3px rgba(0,0,0,0.49);
+  font-family: Rubik-regular;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+.black-color-title{
+  color: #2a2a2a;
+}
+
+.desktop-menu-style{
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-family: Nunito;
+}
+
+.desktop-brand-style{
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-family: Rubik-light;
+}
+
+.menu-active{
+  color: #8d8d8d;
 }
 
 
@@ -86,16 +142,6 @@ html{
   color: whitesmoke;
 }
 
-/*  .nav__link:active {
-  background-color: #2a2a2a;
-  color: whitesmoke;
-}    */
-
-
-/* .nav__link--active {
-  color: #444444;
-}
-  */
 
 .nav__icon {
   font-size: 25px;
@@ -254,6 +300,16 @@ html{
 
 
     @media (min-width: 576px) { 
+
+      .white-color-title{
+        margin-top: .5rem;
+        margin-bottom: 3rem;
+      }
+
+      .black-color-title{
+        color: #2a2a2a;
+      }
+
       .profile-pic{
         width: 180px;
       }
@@ -296,6 +352,19 @@ html{
 
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) { 
+      
+      .particles-hot-fix{
+        height: 57vh
+     }
+
+     #tsparticlesMobile{
+      height: 55vh;
+    }
+
+      .white-color-title{
+        margin-top: .5rem;
+        margin-bottom: 2rem;
+      }
 
 
       /* Section About Me*/
@@ -388,6 +457,16 @@ html{
  
      @media (min-width: 992px){
 
+
+      .rights-reserved{
+        padding: .5rem;
+      }
+
+
+      .black-color-title{
+        color: whitesmoke;
+      }
+
      /* Particles */
 
       #tsparticles{
@@ -395,8 +474,12 @@ html{
       }
 
       .gradient-background{
-        background: rgb(88, 61, 73);
-        background: radial-gradient(circle, rgb(92, 63, 76) 0%, rgb(31, 36, 51) 100%); 
+
+        background-color: #2d3436;
+        background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+        
+        /* background: rgb(56, 39, 47);
+        background: radial-gradient(circle, rgb(82, 57, 68) 0%, rgb(21, 24, 34) 100%); */
       }
 
 
@@ -428,8 +511,8 @@ html{
       display: inline-block;
     }
 
-    .nav-item-desktop{
-      color: whitesmoke !important;
+    .nav-item-desktop:hover{
+      color: #8d8d8d !important;
     }
 
 

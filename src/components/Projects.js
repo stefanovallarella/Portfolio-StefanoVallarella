@@ -11,7 +11,7 @@ function Projects(){
           {/* Section 3 Projects */}
 
           <div id="projects" className="container-fluid d-flex flex-column align-items-center justify-content-center projects-container">
-            <h1 className="p-3 font-weight-bold text-center section-title animate__animated animate__fadeInDown white-color-title">Projects</h1>
+            <h1 className="text-center section-title animate__animated animate__fadeInDown white-color-title black-color-title">Projects</h1>
             <div className="row align-items-center justify-content-center">
                 <div className="col-12 col-sm-10 col-md-10 col-lg-3 col-xl-3 card project grow-card animate__animated animate__fadeInLeft">
                   <div className="card-body">
