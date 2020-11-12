@@ -121,7 +121,7 @@ render(){
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
                   <img className="skills-icons" src={this.props.onMobile ? git : gitwhite} alt="Git"/>
-                  
+            
                 </div>
               </div>
           </div>

@@ -27,7 +27,7 @@ render(){
                     <div className="about-me">
                     <h5 className="card-title fullstack">Full Stack Developer </h5>
                     {/* <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
-                    <p className="white-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam in aliquam maiores. Pariatur quam fugiat consectetur non esse, temporibus quasi. Quaerat repellat qui ab nisi sint quis in debitis incidunt et culpa quae, commodi blanditiis a nemo beatae repudiandae nostrum saepe temporibus fugiat sapiente, distinctio labore odit explicabo officia. Animi.</p>
+                    <p className="white-color">Tengo 26 años y soy un apasionado por la tecnología desde siempre. Comencé en el mundo de la programación de modo autodidacta aprendiendo Android (Java) y luego me encontré con la oportunidad de concursar por una beca de Programación Web Full Stack en una coding school con prestigio como lo es Digital House. Entre más de 100 participantes pude destacarme y ganar una de las 23 becas sorteadas.</p>
                     </div>
                 </div>
             </div>

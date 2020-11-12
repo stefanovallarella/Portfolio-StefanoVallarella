@@ -292,6 +292,10 @@ html{
   /* box-shadow: 0px 6px 12px -6px rgba(0,0,0,0.3); */
 }
 
+.projects-all-container{
+  width: 100%;
+}
+
      /* Card projects*/
      .top-card{
       display: flex;
@@ -302,6 +306,12 @@ html{
        font-size: 2rem;
        padding: .5rem 0;
      }
+
+     .tech-project{
+      padding-right: .5rem;
+      font-size: .9rem;
+     }
+
 
      /* Grow Card */
 
@@ -517,10 +527,10 @@ html{
 
 
       .projects-all-container{
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
       }
       .projects-title{
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
       }
 
       .name-about{

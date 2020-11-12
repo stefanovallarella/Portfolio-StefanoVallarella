@@ -22,13 +22,13 @@ class Footer extends Component{
                 <div className="container icons-container">
                   <div className="row align-items-center justify-content-center">
                       <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-center">
-                          <a href="#"> <img className="icons-redes" src={this.props.onMobile ? linkedinblack : linkedin} alt="Linkedin"/> </a>
+                          <a target="_blank" href="https://www.linkedin.com/in/stefanovallarella"> <img className="icons-redes" src={this.props.onMobile ? linkedinblack : linkedin} alt="Linkedin"/> </a>
                       </div>
                       <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-center">
-                          <a href="#"> <img className="icons-redes" src={this.props.onMobile ? githubblack : github} alt="Github"/> </a>
+                          <a target="_blank" href="https://github.com/stefanovallarella"> <img className="icons-redes" src={this.props.onMobile ? githubblack : github} alt="Github"/> </a>
                       </div>
                       <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-center">
-                          <a href="#"> <img className="icons-redes" src={this.props.onMobile ? cvblack : cv} alt="Cv"/> </a>
+                          <a target="_blank" href="#"> <img className="icons-redes" src={this.props.onMobile ? cvblack : cv} alt="Cv"/> </a>
                       </div>
                   </div>
                 </div>

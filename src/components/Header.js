@@ -36,13 +36,13 @@ function Header(){
                               <NavLink className="nav-link nav-item-desktop desktop-menu-style" to="/projects" activeClassName="menu-active">Projects</NavLink>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#"><img className="icons-redes-top" src={linkedin} alt="Linkedin"/></a>
+                              <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/stefanovallarella"><img className="icons-redes-top" src={linkedin} alt="Linkedin"/></a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#"><img className="icons-redes-top" src={github} alt="Github"/></a>
+                              <a target="_blank" class="nav-link" href="https://github.com/stefanovallarella"><img className="icons-redes-top" src={github} alt="Github"/></a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#"><img className="icons-redes-top" src={cv} alt="CV"/></a>
+                              <a target="_blank" class="nav-link" href="#"><img className="icons-redes-top" src={cv} alt="CV"/></a>
                           </li>
                       </ul>
                   </div>
