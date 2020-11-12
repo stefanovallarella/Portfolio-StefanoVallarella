@@ -31,10 +31,15 @@ html{
     }
 
 
-/* Color White --> Text Desktop*/
+/* Color - texts*/
 
 .white-color{
   color: whitesmoke;
+}
+
+.white-color-title{
+  color: whitesmoke;
+  text-shadow: 1px 2px 3px rgba(0,0,0,0.49);
 }
 
 
@@ -176,23 +181,30 @@ html{
   padding: .5rem;
 }
 
-.skills-icons{
-  width: 60px;
-  /* margin-bottom: .5rem; */
+
+.skills-card{
+  padding-bottom: 1rem;
 }
 
 .skills-icons-content{
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 1rem;
-  border-radius: 5%;
+  height: 140px;
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 50%;
+}
+
+.skills-icons{
+  max-width: 70%;
+  max-height: 80%;
 }
 
 
-.skills-card{
- /*  background-color: rgba(0, 0, 0, 0.75);
-  border-radius: 5%; */
-  padding-bottom: .5rem;
-}
+
+
+
+
+
 
 /* Section 3 Projects */
 
@@ -245,13 +257,38 @@ html{
       .profile-pic{
         width: 180px;
       }
+
+
+      .skills-card{
+        padding-bottom: 1rem;
+      }
+
+      .skills-icons-content{
+        height: 150px;
+        width: 150px;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.02);
+        border-radius: 50%;
+      }
+  
       .skills-icons{
+        max-width: 85%;
+        max-height: 80%;
+      }
+
+
+
+
+
+
+
+      /* .skills-icons{
         width: 65px;
         max-height: 75px;
       }
       .skills-container{
         margin-top: 7rem;
-      }
+      } */
       .profile-pic-container-bis{
         height: 90vh;
       }
@@ -259,12 +296,31 @@ html{
 
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) { 
+
+
+      /* Section About Me*/
       .profile-pic{
         width: 220px;
       }
+
+
+      /* Section Skills */ 
+
+      .skills-card{
+        padding-bottom: 1rem;
+      }
+
+      .skills-icons-content{
+        height: 150px;
+        width: 150px;
+        padding: 13px;
+        background-color: rgba(0, 0, 0, 0.02);
+        border-radius: 50%;
+      }
+  
       .skills-icons{
-        width: 70px;
-        max-height: 80px;
+        max-width: 85%;
+        max-height: 75%;
       }
       
       /* Menu Mobile */
@@ -314,15 +370,6 @@ html{
           color: whitesmoke;
         }
         
-        /* .nav__link:hover {
-          background-color: #2a2a2a;
-        } */
-
-       /*  .nav__link--active {
-          
-          color: #444444;
-
-        } */
 
         .nav__icon {
           font-size: 25px;
@@ -434,18 +481,26 @@ html{
       margin-bottom: .5rem;
     }
 
+
+    .skills-icons-content{
+      height: 150px;
+      width: 150px;
+      padding: 13px;
+      background-color: rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+    }
+
     .skills-icons{
-      width: 75px;
-      max-height: 90px;
-      /* margin-bottom: .5rem; */
+      max-width: 95%;
+      max-height: 74%;
     }
 
 
     .skills-card{
-    /*  background-color: rgba(0, 0, 0, 0.75);
-      border-radius: 5%; */
-      padding: 1rem
+      padding: 1rem;
     }
+
+
 
     /* Section 3 Projects */
 
@@ -491,7 +546,8 @@ html{
         width: 280px;
       }
       .skills-icons{
-        width: 80px;
+        max-width: 90%;
+        max-height: 71%;
       }
       }
 

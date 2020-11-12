@@ -52,7 +52,9 @@ function MobileAndTabletComponents(){
                 </div>
 
 
-                <Skills/>
+                <Skills
+                    onMobile = {true}
+                />
                 <Projects/>
 
                 <div style={{ width: "100vw", height: "45vh"}}>

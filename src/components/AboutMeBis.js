@@ -8,7 +8,7 @@ function AboutMeBis(){
         <React.Fragment>
           {/* Section 1 About me Bis */}
           <div id="home" className="container d-flex flex-column justify-content-center align-items-center profile-pic-container-bis">
-          <h1 className="font-weight-bold text-center section-title animate__animated animate__fadeInDown white-color">About me</h1> 
+          <h1 className="font-weight-bold text-center section-title animate__animated animate__fadeInDown white-color-title">About me</h1> 
             <div className="row align-items-center justify-content-center mb-3">
                 <div class="col-md-4 text-center animate__animated animate__fadeInLeft">
                   <img className="profile-pic" src={profile} alt="pic profile"/>
