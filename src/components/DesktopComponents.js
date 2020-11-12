@@ -46,8 +46,6 @@ function DesktopComponents(){
             </Desktop>
 
         </React.Fragment>
-
-
     )
 } 
 

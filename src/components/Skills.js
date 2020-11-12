@@ -22,80 +22,80 @@ function Skills(){
           
           <div id="skills" className="container d-flex flex-column skills-container justify-content-center">
             <h1 className="font-weight-bold text-center animate__animated animate__fadeInDown">Skills</h1>
-              <div className="row justify-content-around skills-content">
-                  <div className="col-6 col-sm-4 col-md-4 col-md-4 col-lg-2  d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={java} alt="Logo Java"/>
-                      <button className="btn btn-light">Java</button>
+              <div className="row justify-content-around skills-content animate__animated animate__zoomIn">
+                  <div className="col-6 col-sm-4 col-md-4 col-md-4 col-lg-2  d-flex flex-column align-items-center justify-content-center skills-card">
+                    {/* <div className="row align-items-center justify-content-center skills-icons-content"> */}
+                      <img className="skills-icons" src={java} alt="Java"/>
+                      
+                    {/* </div> */}
+                  </div>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    {/* <div className="row align-items-center justify-content-center skills-icons-content"> */}
+                      <img className="skills-icons" src={android} alt="Android Studio"/>
+                      {/* <button className="btn btn-light">Android Studio</button> */}
+                    {/* </div> */}
+                  </div>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={javascript} alt="Javascript"/>
+                      
                     </div>
                   </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={android} alt="Logo Android Studio"/>
-                      <button className="btn btn-light">Android Studio</button>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={nodejs} alt="Nodejs"/>
+                      
                     </div>
                   </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={javascript} alt="Logo Javascript"/>
-                      <button className="btn btn-light">Javascript</button>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={express} alt="Express"/>
+                      
                     </div>
                   </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={nodejs} alt="Logo Nodejs"/>
-                      <button className="btn btn-light">Nodejs</button>
-                    </div>
-                  </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={express} alt="Logo Express"/>
-                      <button className="btn btn-light">Express</button>
-                    </div>
-                  </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={sequelize} alt="Logo Sequelize"/>
-                      <button className="btn btn-light">Sequelize</button>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={sequelize} alt="Sequelize"/>
+                      
                     </div>
                   </div>
               </div>
 
-              <div className="row justify-content-around skills-content">
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={mysql} alt="Logo Mysql"/>
-                      <button className="btn btn-light">Mysql</button>
+              <div className="row justify-content-around skills-content animate__animated animate__zoomIn">
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={mysql} alt="Mysql"/>
+                      
                     </div>
                   </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={html} alt="Logo Html5"/>
-                      <button className="btn btn-light">HTML5</button>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={html} alt="Html5"/>
+                      
                     </div>
                   </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={css} alt="Logo CSS3"/>
-                      <button className="btn btn-light">CSS3</button>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={css} alt="CSS3"/>
+                      
                     </div>
                   </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={reactjs} alt="Logo Reactjs"/>
-                      <button className="btn btn-light">Reactjs</button>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={reactjs} alt="Reactjs"/>
+                      
                     </div>
                   </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={bootstrap} alt="Logo Bootstrap"/>
-                      <button className="btn btn-light">Bootstrap</button>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={bootstrap} alt="Bootstrap"/>
+                      
                     </div>
                   </div>
-                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-end skills-card">
-                    <div className="row d-flex flex-column align-items-center">
-                      <img className="skills-icons" src={git} alt="Logo Git"/>
-                      <button className="btn btn-light">Git</button>
+                  <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
+                    <div className="row align-items-center justify-content-center">
+                      <img className="skills-icons" src={git} alt="Git"/>
+                      
                     </div>
                   </div>
               </div>
