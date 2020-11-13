@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Selecting sections.
 
 let home = document.getElementById("home");
@@ -84,12 +70,7 @@ itemRedes.addEventListener("click", function(){
 
 
 const visitedClass = 'visited-scroll';
-
 const handler = (entries) => {
-    console.log(entries);
-    console.log(entries.isIntersecting);
-    console.log(entries[0].isIntersecting);
-
 if (itemHome) {
     if (entries[0].isIntersecting && entries[0].target == home) {
         itemHome.classList.add(visitedClass);
@@ -127,10 +108,8 @@ if (itemHome) {
     } 
   } 
 
-
 }
 const options= {
-    /* rootMargin: '0px 0px -200px 0px' */
     rootMargin: '0px',
     threshold: [.2, .9]
 } 
@@ -142,89 +121,3 @@ observer.observe(projects);
 observer.observe(redes); 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-let observer = new IntersectionObserver(function(entries,observer){
-
-    entries.forEach(entry => {
-        
-
-        console.log(entry);
-        if (entry.isIntersecting) {
-          intersectionHandler(entry); 
-        }
-
-
-      });
-
-
-
-}, {rootMargin: '-50px 0px -55%',
-threshold: 0.2});
-
-
-
-observer.observe(section1);
-
-
-
-function intersectionHandler(entry) {
-    const id = entry.target.id;
-    console.log(id);
-  } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* const sections = document.querySelectorAll('div.screen');
-const config = {
-  rootMargin: '-50px 0px -55%'
-};
-
-let observer = new IntersectionObserver(function (entries, self) {
-  entries.forEach(entry => {
-    console.log(entry);
-    if (entry.isIntersecting) {
-      intersectionHandler(entry); 
-    }
-  });
-}, config);
-
-sections.forEach(section => {
-  observer.observe(section);
-});
-
-function intersectionHandler(entry) {
-  const id = entry.target.id;
-  const currentlyActive = document.querySelector('nav li.active');
-  const shouldBeActive = document.querySelector('nav li[data-ref=' + id + ']');
-
-  if (currentlyActive) {
-    currentlyActive.classList.remove('active');
-  }
-  if (shouldBeActive) {
-    shouldBeActive.classList.add('active');
-  }
-} */
