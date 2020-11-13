@@ -5,7 +5,6 @@ import { useMediaQuery } from 'react-responsive';
 
 import Footer from './Footer';
 import MenuMobile from './MenuMobile';
-import AboutMe from './AboutMe';
 import AboutMeBis from './AboutMeBis';
 import Skills from './Skills';
 import Projects from './Projects';
@@ -30,9 +29,6 @@ function MobileAndTabletComponents(){
                 <div
                 className="gradient-background"
                 style={{
-                /* position: "absolute",
-                top: 0,
-                left: 0, */
                 width: "100vw",
                 height: "100vh"
                 }}

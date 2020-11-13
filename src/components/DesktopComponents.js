@@ -40,7 +40,6 @@ function DesktopComponents(){
                 >
                     <Header />
                     <Footer />
-                {/* You can render <Route> and <NavTabs /> here */}
                 </div>
                 </div>
             </Desktop>

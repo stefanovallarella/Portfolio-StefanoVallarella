@@ -50,39 +50,32 @@ render(){
           <div className="row justify-content-around skills-content animate__animated animate__zoomIn">
               <div className="col-6 col-sm-4 col-md-4 col-md-4 col-lg-2  d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale"> 
-
-                  <img className="skills-icons" src={java} alt="Java"/>
-                  
+                  <img className="skills-icons" src={java} alt="Java"/>      
                 </div> 
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
                   <img className="skills-icons" src={this.props.onMobile ? android : androidwhite} alt="Android Studio"/>
-                  {/* <button className="btn btn-light">Android Studio</button> */}
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
                   <img className="skills-icons" src={javascript} alt="Javascript"/>
-                  
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
-                  <img className="skills-icons" src={this.props.onMobile ? nodejs : nodejswhite} alt="Nodejs"/>
-                  
+                  <img className="skills-icons" src={this.props.onMobile ? nodejs : nodejswhite} alt="Nodejs"/>                
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
-                  <img className="skills-icons" src={this.props.onMobile ? express : expresswhite} alt="Express"/>
-                  
+                  <img className="skills-icons" src={this.props.onMobile ? express : expresswhite} alt="Express"/>               
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
-                  <img className="skills-icons" src={sequelize} alt="Sequelize"/>
-                  
+                  <img className="skills-icons" src={sequelize} alt="Sequelize"/>                
                 </div>
               </div>
           </div>
@@ -91,37 +84,31 @@ render(){
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
                   <img className="skills-icons" src={mysql} alt="Mysql"/>
-                  
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
                   <img className="skills-icons" src={this.props.onMobile ? html : htmlwhite} alt="Html5"/>
-                  
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
-                  <img className="skills-icons" src={this.props.onMobile ? css : csswhite} alt="CSS3"/>
-                  
+                  <img className="skills-icons" src={this.props.onMobile ? css : csswhite} alt="CSS3"/> 
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
-                  <img className="skills-icons" src={reactjs} alt="Reactjs"/>
-                  
+                  <img className="skills-icons" src={reactjs} alt="Reactjs"/>                
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
-                  <img className="skills-icons" src={bootstrap} alt="Bootstrap"/>
-                  
+                  <img className="skills-icons" src={bootstrap} alt="Bootstrap"/>                 
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg-2 d-flex flex-column align-items-center justify-content-center skills-card">
                 <div className="d-flex align-items-center justify-content-center skills-icons-content grayscale">
-                  <img className="skills-icons" src={this.props.onMobile ? git : gitwhite} alt="Git"/>
-            
+                  <img className="skills-icons" src={this.props.onMobile ? git : gitwhite} alt="Git"/>           
                 </div>
               </div>
           </div>
