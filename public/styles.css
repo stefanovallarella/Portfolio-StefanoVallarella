@@ -226,6 +226,10 @@ html{
 
 /* Section 1 About me */
 
+.about-title{
+  margin-bottom: 4rem;
+}
+
 .profile-pic{
   width: 160px;
   border-radius: 50%;
