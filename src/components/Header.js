@@ -7,6 +7,9 @@ import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Projects from './Projects';
 
+// CV
+import cvpdf from '../stefano-vallarella-cv.pdf';
+
 // Iconos
 import linkedin from '../img/icons/linkedin.svg'; // Linkedin logo
 import github from '../img/icons/github.svg'; // Github logo
@@ -39,7 +42,7 @@ function Header(){
                               <a target="_blank" rel="noreferrer" className="nav-link" href="https://github.com/stefanovallarella"><img className="icons-redes-top" src={github} alt="Github"/></a>
                           </li>
                           <li className="nav-item">
-                              <a target="_blank" rel="noreferrer" className="nav-link" href="#"><img className="icons-redes-top" src={cv} alt="CV"/></a>
+                              <a target="_blank" rel="noreferrer" className="nav-link" href={cvpdf}><img className="icons-redes-top" src={cv} alt="CV"/></a>
                           </li>
                       </ul>
                   </div>

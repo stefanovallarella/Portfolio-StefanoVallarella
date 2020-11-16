@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 /* Fuentes */
 @font-face {
   font-family: "Rubik-regular";
@@ -103,11 +101,10 @@ html{
 
 .white-color-title{
   color: whitesmoke;
-  text-shadow: 1px 2px 3px rgba(0,0,0,0.49);
   font-family: Rubik-regular;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
 }
 
 .black-color-title{
@@ -132,7 +129,6 @@ html{
 .menu-active{
   color: #8d8d8d;
 }
-
 
 /* Menu Mobile */
 
