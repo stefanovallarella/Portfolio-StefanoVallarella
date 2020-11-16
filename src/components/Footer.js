@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 // CV
-import cvpdf from '../stefano-vallarella-cv.pdf';
+import cvpdf from '../cv/stefano-vallarella-cv.pdf';
 
 // Iconos
 import linkedin from '../img/icons/linkedin.svg'; // Linkedin logo
@@ -33,7 +33,7 @@ class Footer extends Component{
                           <a target="_blank" rel="noreferrer" href="https://github.com/stefanovallarella"> <img className="icons-redes" src={this.props.onMobile ? githubblack : github} alt="Github"/> </a>
                       </div>
                       <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-center">
-                          <a target="_blank" rel="noreferrer" href={cvpdf}> <img className="icons-redes" src={this.props.onMobile ? cvblack : cv} alt="Cv"/> </a>
+                          <a without rel="noopener noreferrer" target="_blank" href={cvpdf}> <img className="icons-redes" src={this.props.onMobile ? cvblack : cv} alt="Cv"/> </a>
                       </div>
                   </div>
                   {this.props.onMobile ? <div className="text-center rights-black"><span>Stefano Vallarella - Todos los derechos reservados 2020</span></div> : <div className="text-center rights-white"><span>Stefano Vallarella - Todos los derechos reservados 2020</span></div>}
